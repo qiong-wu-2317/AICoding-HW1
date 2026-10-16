@@ -1,0 +1,65 @@
+{
+  "booking": {
+    "provider": "Chase Travel",
+    "trip_id": "1018789993",
+    "airline_confirmation": "AQVUBG",
+    "email_date": "2026-06-10T16:46:56Z",
+    "booked_for_email": "wuqiong2317@gmail.com"
+  },
+  "travelers": [
+    { "traveler_number": 1, "name": "QIONG WU" }
+  ],
+  "flight": {
+    "trip_type": "one_way",
+    "airline": "Southwest Airlines",
+    "origin": { "airport": "DAL", "city": "Dallas" },
+    "destination": { "airport": "SFO", "city": "San Francisco" },
+    "departure": "2026-06-17T19:45:00-05:00",
+    "arrival": "2026-06-17T23:15:00-07:00",
+    "total_duration": "5h 30m",
+    "stops": 1,
+    "layovers": [
+      { "airport": "LAS", "duration": "1h 10m" }
+    ],
+    "segments": [
+      {
+        "flight_number": "WN 296",
+        "route": "DAL-LAS",
+        "aircraft": "Boeing 737 MAX 8",
+        "operated_by": "Southwest Airlines"
+      },
+      {
+        "flight_number": "WN 2345",
+        "route": "LAS-SFO",
+        "aircraft": "Boeing 737 MAX 8",
+        "operated_by": "Southwest Airlines"
+      }
+    ],
+    "fare": {
+      "fare_type": "Basic",
+      "cabin": "Economy",
+      "included": ["Carry-on bag"],
+      "available_for_fee": ["Checked bags", "Seats"],
+      "not_included": ["Refund", "Exchange"]
+    }
+  },
+  "payment": {
+    "currency": "USD",
+    "trip_total": 297.20,
+    "promotion_discount": 50.00,
+    "total_after_promo": 247.20,
+    "points_redeemed": 19776,
+    "points_value_multiplier": 1.25
+  },
+  "policies": {
+    "refundable": false,
+    "changes_permitted": false,
+    "same_day_changes_permitted": false,
+    "seat_assignment": "Not available until after check-in",
+    "priority_boarding_purchasable": false
+  },
+  "support": {
+    "phone_us": "1-866-331-0773",
+    "phone_international": "+1-206-274-6380"
+  }
+}
